@@ -1,0 +1,19 @@
+Git hub how to:
+
+1. Create a git hub account
+2. create a repository on github , name it and add a description
+3. On local machine, from the directory you want to commit do the following:
+- Make sure you are on the branch you want to commit, check the branch by running "git branch" and move to the branch you want by using "git checkout <branch_name>"
+- Check if a remote repo already exsist for this branch by running "git remote". If none exsist create a remote by "git add remote <remote_name> <path from the gitHub>. If this is the first and only remote for this repo name it 'origin' like so:
+git add remote origin <path>
+and then
+git remote -v (for verbose to verify the path)
+- add the local changes by add to the stage area 'git add'
+- commit the added changed 'git commit -m "<message>"'
+- verify the commit with 'git log' or with 'git status'
+- push the commit to the gitHub like so:
+git push <remote_name> <branch_name> 
+e.g - git push origin master
+4. Verify the commit is present on the gitHub
+
+
